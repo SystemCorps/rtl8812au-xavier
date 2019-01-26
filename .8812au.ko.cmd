@@ -1,0 +1,1 @@
+cmd_/home/nvidia/rtl8812au/8812au.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o /home/nvidia/rtl8812au/8812au.ko /home/nvidia/rtl8812au/8812au.o /home/nvidia/rtl8812au/8812au.mod.o ;  true
